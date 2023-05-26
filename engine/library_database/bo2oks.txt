@@ -1,0 +1,9 @@
+1;Kubus Puchatek;43859048;95;0
+2;Instrukcja serwisowa;54903454;71;1
+3;Konon i Major;349085490;43;0
+4;Konon i Major;349085490;43;0
+1;Kubus Puchatek;43859048;95;0
+2;Instrukcja serwisowa;54903454;71;1
+3;Konon i Major;349085490;43;0
+4;Konon i Major;349085490;43;0
+5;Konon i Major;349085490;43;0
