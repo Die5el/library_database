@@ -19,5 +19,7 @@ public:
 	void saveBookListToFile(std::string fileName, SLinkedList* bookList);
 	void saveReaderListToFile(std::string fileName, SLinkedList* readerList);
 	void saveBorrowListToFile(std::string fileName, SLinkedList* borrowList);
+
+    //for qt
 };
 

@@ -1,0 +1,14 @@
+C:\gits\vs_qt\database\engine\library_database\Book.cpp;C:\gits\vs_qt\database\debug\Book.obj
+C:\gits\vs_qt\database\engine\library_database\Borrow.cpp;C:\gits\vs_qt\database\debug\Borrow.obj
+C:\gits\vs_qt\database\engine\library_database\Database.cpp;C:\gits\vs_qt\database\debug\Database.obj
+C:\gits\vs_qt\database\engine\library_database\Field.cpp;C:\gits\vs_qt\database\debug\Field.obj
+C:\gits\vs_qt\database\engine\library_database\FileHandler.cpp;C:\gits\vs_qt\database\debug\FileHandler.obj
+C:\gits\vs_qt\database\engine\library_database\Node.cpp;C:\gits\vs_qt\database\debug\Node.obj
+C:\gits\vs_qt\database\QT_functions.cpp;C:\gits\vs_qt\database\debug\QT_functions.obj
+C:\gits\vs_qt\database\engine\library_database\Queue.cpp;C:\gits\vs_qt\database\debug\Queue.obj
+C:\gits\vs_qt\database\engine\library_database\Reader.cpp;C:\gits\vs_qt\database\debug\Reader.obj
+C:\gits\vs_qt\database\engine\library_database\SLinkedList.cpp;C:\gits\vs_qt\database\debug\SLinkedList.obj
+C:\gits\vs_qt\database\main.cpp;C:\gits\vs_qt\database\debug\main.obj
+C:\gits\vs_qt\database\mainwindow.cpp;C:\gits\vs_qt\database\debug\mainwindow.obj
+C:\gits\vs_qt\database\Debug\qrc_qmake_qmake_qm_files.cpp;C:\gits\vs_qt\database\debug\qrc_qmake_qmake_qm_files.obj
+C:\gits\vs_qt\database\Debug\moc_mainwindow.cpp;C:\gits\vs_qt\database\debug\moc_mainwindow.obj

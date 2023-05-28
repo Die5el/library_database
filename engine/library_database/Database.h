@@ -13,7 +13,7 @@ public:
 	Database();
 
 	
-	std::vector<std::vector<std::string>>colv;
+
 	void loadAllTables();
 	void saveAllTables();
 
@@ -28,9 +28,21 @@ public:
 	Node* getRecord(unsigned int recordId, std::string table);
 
 	void deleteRecord(unsigned int recordId, std::string table);
+//std::vector<std::vector<std::string>>&colv
 
-    //qt
-    unsigned int x = 0, y = 0;
+    //functions for operations in qt
+    void table_to_vec(std::string get_tab_name,unsigned int *x,unsigned int *y,std::vector<std::vector<std::string>>*colv);
+    unsigned int x,y;
+    std::string get_tab_name;
+    std::vector<std::vector<std::string>>colv;
+   \
 
 };
 
+//create a global object of Database class
+class globalDB
+{
+public:
+    Database *db = new Database;
+
+};

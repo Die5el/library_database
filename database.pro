@@ -19,7 +19,6 @@ SOURCES += \
     engine/library_database/Queue.cpp \
     engine/library_database/Reader.cpp \
     engine/library_database/SLinkedList.cpp \
-    engine/library_database/gui.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -34,7 +33,6 @@ HEADERS += \
     engine/library_database/Queue.h \
     engine/library_database/Reader.h \
     engine/library_database/SLinkedList.h \
-    engine/library_database/gui.h \
     mainwindow.h
 
     mainwindow.h

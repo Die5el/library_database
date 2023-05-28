@@ -1,5 +1,5 @@
 #include "Database.h"
-
+#include <QDebug>
 Database::Database() {
 	loadAllTables();
 }
@@ -85,4 +85,48 @@ void Database::deleteRecord(unsigned int recordId, std::string table) {
 }
 
 //----------------------------------------------------------------------------------------------qt
+//get data and write into global vector
+void Database::table_to_vec(std::string get_tab_name,unsigned int *x,unsigned int *y,std::vector<std::vector<std::string>>*colv)
+{
+    if(get_tab_name == "Books")
+    {
+        std::vector<std::string>rowv;
+        //for tests - static values
+        int colY =4;
+        int rowX = 3;
 
+
+        //
+        unsigned int tempx=0,tempy=0;
+        for(int i = 0;i<rowX;i++)
+        {
+
+            for(int j =0;j<colY;j++)
+            {
+                if(i ==0)
+                {
+                    rowv.push_back("a");
+                    tempy++;
+                }
+                else
+                {
+                    rowv.push_back("b");
+                }
+            }
+            colv->push_back(rowv);
+            rowv.clear();
+            tempx++;
+        }
+        *x=tempx;
+        *y=tempy;
+
+
+        /*
+        while(bookTable->findNode(*x))
+        {
+
+            *x++;
+        }
+*/
+    }
+}

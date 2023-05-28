@@ -6,7 +6,7 @@
 #include <vector>
 #include <QString>
 #include<iostream>
-
+/*
 class guiClass
 {
 public:
@@ -15,5 +15,6 @@ public:
     std::vector<QString>row_vec;
     std::vector<std::vector<QString>>table_vec;
 };
+*/
 
 
